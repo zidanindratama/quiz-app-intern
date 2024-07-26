@@ -54,7 +54,10 @@ const Question: React.FC<QuestionProps> = ({ question, onAnswer }) => {
             {Object.entries(question.answers).map(([key, answer]) =>
               answer ? (
                 <li key={key}>
-                  <button onClick={() => handleAnswer(key)} className="text-lg">
+                  <button
+                    onClick={() => handleAnswer(key)}
+                    className="text-lg text-left"
+                  >
                     {answer}
                   </button>
                 </li>

@@ -14,6 +14,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { Menu } from "lucide-react";
 
 interface NavLink {
   id: string;
@@ -92,7 +93,9 @@ const Navbar = () => {
         )}
       </div>
       <Sheet>
-        <SheetTrigger className="md:hidden">Open</SheetTrigger>
+        <SheetTrigger className="md:hidden">
+          <Menu />
+        </SheetTrigger>
         <SheetContent className="py-32">
           <SheetHeader>
             <div className="flex flex-col gap-4 text-left">
