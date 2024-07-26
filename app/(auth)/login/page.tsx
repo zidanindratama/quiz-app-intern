@@ -56,8 +56,8 @@ const LoginPage = () => {
   }
 
   return (
-    <div className="bg-white">
-      <div className="p-6 h-screen flex flex-col items-center justify-center mx-auto w-full max-w-5xl">
+    <div className="bg-white py-12 px-6">
+      <div className="h-screen flex flex-col items-center justify-center mx-auto w-full max-w-5xl">
         <div className="grid md:grid-cols-2 gap-20 items-center w-full mx-auto">
           <div>
             <Image src={"/login.png"} alt="hero" width={500} height={500} />

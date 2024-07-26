@@ -56,9 +56,7 @@ const HowTo = () => {
                 <span className="text-[#34AEFF]">.</span>
               </h1>
               <h3 className="text-2xl font-bold">{howTo.title}</h3>
-              <p className="text-muted-foreground font-semibold text-lg">
-                {howTo.description}
-              </p>
+              <p className="text-lg">{howTo.description}</p>
             </div>
           );
         })}
